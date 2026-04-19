@@ -1,5 +1,9 @@
 Tabelas
-Produto nome descrição preço
+
+Produto 
+nome
+descrição
+preço
 
 ItemPedido
 produto
