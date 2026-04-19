@@ -1,3 +1,5 @@
+package model;
+
 import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
@@ -30,8 +32,6 @@ public class Pedido {
         if (itens.isEmpty()) {
             throw new IllegalStateException("Pedido sem itens");
         }
-
-        System.out.println("Pedido finalizado. Total: R$ " + calcularTotal());
     }
 
     public LocalDate getData() {
